@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+html {
+	box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: inherit;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	text-transform: capitalize;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	padding: 14px;
+	font-size: 24px;
+}
+ul {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	padding: 0 10px;
+}
+li {
+	list-style: none;
+	color: #e5e7eb;
+	font-size: 18px;
+}
+.top-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 1px;
+	height: 400px;
+}
+.left {
+	width: 399px;
+	justify-content: space-between;
+}
+.left h1 {
+	font-size: 48px;
+	font-weight: bolder;
+}
+.left p {
+	font-size: 18px;
+	color: #e5e7eb;
+}
+.left > * {
+	padding: 3px 0;
+}
+.left span::after {
+	content: '\a';
+	white-space: pre;
+}
+.left button {
+	font-size: 18px;
+	margin-top: 5px;
+	background-color: #3882f6;
+	padding: 9px 33px;
+	border: none;
+	border-radius: 8px;
+	color: #f9faf8;
+}
+nav,
+.top-container,
+footer {
+	background-color: #1f2937;
+	color: #f9faf8;
+}
+
+.info-container {
+	text-align: center;
+	padding: 40px 0;
+	margin-bottom: 33px;
+}
+.info-container h2 {
+	font-size: 36px;
+	font-weight: bolder;
+	color: #1f2937;
+}
+.cards {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 300px;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+.card {
+	padding: 10px;
+	margin: 10px;
+}
+.card p {
+	padding-top: 10px;
+	width: 190px;
+	margin-left: 2px;
+}
+.card-img {
+	width: 200px;
+	height: 200px;
+	border-radius: 8px;
+	border: 3px #3882f6 solid;
+}
+
+.quote-container {
+	background-color: #e5e7eb;
+	font-size: 36px;
+	font-weight: lighter;
+	font-style: italic;
+	padding: 30px;
+	height: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text-container {
+	width: 840px;
+	color: #1f2937;
+}
+.text-container > * {
+	padding: 22px 0;
+}
+.quote-container span {
+	text-align: right;
+	font-weight: bold;
+	font-style: normal;
+}
+.action-container {
+	margin: 55px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flex-container {
+	background-color: #3882f6;
+	border-radius: 7px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-width: 50%;
+	padding: 50px;
+	color: #f9faf8;
+}
+
+.flex-container button {
+	font-size: 18px;
+	margin-top: 5px;
+	background-color: #3882f6;
+	padding: 9px 33px;
+	border: 2px solid white;
+	border-radius: 8px;
+	color: #f9faf8;
+}
+.flex-container p {
+	color: #e5e7eb;
+}
+footer {
+	padding: 15px;
+	text-align: center;
+}
